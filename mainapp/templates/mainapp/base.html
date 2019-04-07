@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+    {% endblock %}
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% block css %}
+    {% endblock %}
+</head>
+
+<body>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+        <div class="footer padding-site">
+            <div class="footer-top">
+                <div class="contact-us">
+                    <h4 class="footer-top-h4">Contact Us</h4>
+                    <p class="footer-top-p">132A Bridge Road Richmond VIC Australia.</p>
+                    <p class="footer-top-p">Talk to us on 1300 132
+                    info@interior.com</p>
+                </div>
+                <div class="useful-information">
+                    <h4 class="footer-top-h4">Useful Information</h4>
+                    <div class="useful-links">
+                        <div class="useful-links-column">
+                            <a href="#" class="useful-link">Sales terms</a>
+                            <a href="#" class="useful-link">Customer care</a>
+                            <a href="#" class="useful-link">Delivery</a>
+                        </div>
+                        <div class="useful-links-column">
+                            <a href="#" class="useful-link">Architect accounts</a>
+                            <a href="#" class="useful-link">Careers</a>
+                            <a href="#" class="useful-link">Exchanges &amp; returns</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="stay-in-touch">
+                    <h4 class="footer-top-h4">Let’s Stay in Touch!</h4>
+                    <p class="footer-top-p">Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                    <form action="">
+                        <input type="email" placeholder="your email address">
+                        <button type="submit"><img src="{% static 'img/submit.png' %}" alt="Submit"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="copyright">&copy; Copyright - INTERIOR 2016. All Rights Reserved.</span>
+                <span class=""><img src="/static/img/social-links.png" alt="Social links"></span>
+                <span>
+                    <a href="#" class="footer-bottom-link">Terms &amp; Conditions</a>
+                    <span> &frasl; </span>
+                    <a href="#" class="footer-bottom-link">Privacy policy &amp; Cookies</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    {% block js %}
+    {% endblock %}
+</body>
+
+</html>

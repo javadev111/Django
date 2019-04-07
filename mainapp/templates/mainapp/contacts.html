@@ -1,0 +1,132 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="padding-site">
+            <div class="header">
+                <a class="logo" href="#"><img src="/static/img/logo.svg" alt="logo"></a>
+                <ul class="menu">
+                    <li><a href="% url 'index' %}" class="menu-link">HOME </a></li>
+                    <li><a href="#" class="menu-link">PRODUCTS </a></li>
+                    <li><a href="#" class="menu-link">HISTORY </a></li>
+                    <li><a href="#" class="menu-link">SHOWROOM</a></li>
+                    <li><a href="% url 'contacts' %}" class="menu-link-active menu-link">CONTACT</a></li>
+                    <li><a href="#" class="menu-link"><img src="/static/img/search.svg" alt="search"></a></li>
+                </ul>
+            </div>
+            <h2 class="header-h2">Contact Us</h2>
+        </header>
+        <div class="location padding-site">
+            <div class="location-item">
+                <div class="location-img"><img src="/static/img/location-img.png" alt="Location"></div>
+                <h4 class="location-h4">California</h4>
+                <p class="location-p">Phone:<br><b>1900 - 1234 -5678</b></p>
+                <p class="location-p">Email:<br><b>info@interior.com</b></p>
+                <p class="location-p">Address:<br>12 W 1st St, 90001 Los Angeles, California</p>
+            </div>
+            <div class="location-item">
+                <div class="location-img"><img src="/static/img/location-img.png" alt="Location"></div>
+                <h4 class="location-h4">California</h4>
+                <p class="location-p">Phone:<br><b>1900 - 1234 -5678</b></p>
+                <p class="location-p">Email:<br><b>info@interior.com</b></p>
+                <p class="location-p">Address:<br>12 W 1st St, 90001 Los Angeles, California</p>
+            </div>
+            <div class="location-item">
+                <div class="location-img"><img src="/static/img/location-img.png" alt="Location"></div>
+                <h4 class="location-h4">California</h4>
+                <p class="location-p">Phone:<br><b>1900 - 1234 -5678</b></p>
+                <p class="location-p">Email:<br><b>info@interior.com</b></p>
+                <p class="location-p">Address:<br>12 W 1st St, 90001 Los Angeles, California</p>
+            </div>
+        </div>
+        <footer class="footer padding-site">
+            <div class="footer-top">
+                <div class="contact-us">
+                    <h4 class="footer-top-h4">Contact Us</h4>
+                    <p class="footer-top-p">132A Bridge Road Richmond VIC Australia.</p>
+                    <p class="footer-top-p">Talk to us on 1300 132
+                    info@interior.com</p>
+                </div>
+                <div class="useful-information">
+                    <h4 class="footer-top-h4">Useful Information</h4>
+                    <div class="useful-links">
+                        <div class="useful-links-column">
+                            <a href="#" class="useful-link">Sales terms</a>
+                            <a href="#" class="useful-link">Customer care</a>
+                            <a href="#" class="useful-link">Delivery</a>
+                        </div>
+                        <div class="useful-links-column">
+                            <a href="#" class="useful-link">Architect accounts</a>
+                            <a href="#" class="useful-link">Careers</a>
+                            <a href="#" class="useful-link">Exchanges &amp; returns</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="stay-in-touch">
+                    <h4 class="footer-top-h4">Let’s Stay in Touch!</h4>
+                    <p class="footer-top-p">Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                    <form action="">
+                        <input type="email" placeholder="your email address">
+                        <button type="submit"><img src="/static/img/submit.png" alt="Submit"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="copyright">&copy; Copyright - INTERIOR 2016. All Rights Reserved.</span>
+                <span class=""><img src="/static/img/social-links.png" alt="Social links"></span>
+                <span>
+                    <a href="#" class="footer-bottom-link">Terms &amp; Conditions</a>
+                    <span> &frasl; </span>
+                    <a href="#" class="footer-bottom-link">Privacy policy &amp; Cookies</a>
+                </span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+-->
+
+{% extends 'mainapp/base.html' %}
+
+{% block title %}
+    <title>Contacts</title>
+{% endblock %}
+
+{% block content %}
+    <header class="padding-site">
+        <div class="header">
+            {% include 'mainapp/include/inc_menu.html' %}
+        </div>
+        <h2 class="header-h2">Contact Us</h2>
+    </header>
+    <div class="location padding-site">
+            <div class="location-item">
+                <div class="location-img"><img src="/static/img/location-img.png" alt="Location"></div>
+                <h4 class="location-h4">California</h4>
+                <p class="location-p">Phone:<br><b>1900 - 1234 -5678</b></p>
+                <p class="location-p">Email:<br><b>info@interior.com</b></p>
+                <p class="location-p">Address:<br>12 W 1st St, 90001 Los Angeles, California</p>
+            </div>
+            <div class="location-item">
+                <div class="location-img"><img src="/static/img/location-img.png" alt="Location"></div>
+                <h4 class="location-h4">California</h4>
+                <p class="location-p">Phone:<br><b>1900 - 1234 -5678</b></p>
+                <p class="location-p">Email:<br><b>info@interior.com</b></p>
+                <p class="location-p">Address:<br>12 W 1st St, 90001 Los Angeles, California</p>
+            </div>
+            <div class="location-item">
+                <div class="location-img"><img src="/static/img/location-img.png" alt="Location"></div>
+                <h4 class="location-h4">California</h4>
+                <p class="location-p">Phone:<br><b>1900 - 1234 -5678</b></p>
+                <p class="location-p">Email:<br><b>info@interior.com</b></p>
+                <p class="location-p">Address:<br>12 W 1st St, 90001 Los Angeles, California</p>
+            </div>
+        </div>
+{% endblock %}
+

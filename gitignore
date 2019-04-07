@@ -1,0 +1,5 @@
+*.pyc
+.idea
+*.sqlite3
+mysql-8.0.15-winx64.zip
+
