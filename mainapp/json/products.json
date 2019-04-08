@@ -1,0 +1,14 @@
+[
+  {
+    "category": "chair",
+    "name": "soft chair",
+    "price": 5000,
+    "quantity": 37
+  },
+  {
+    "category": "chair",
+    "name": "hard chair",
+    "price": 4000,
+    "quantity": 11
+  }
+]
